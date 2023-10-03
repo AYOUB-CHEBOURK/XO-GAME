@@ -1,0 +1,49 @@
+body{
+    background-image: url('images (4).png');
+    background-repeat: no-repeat;
+    background-size:100% 120% ;
+    overflow-y: hidden;
+}
+
+.game{
+    width: 400px;
+    height: 462px;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: bold;
+    margin:90px auto;
+    color: white;
+    background-color: black;
+}
+
+.title{
+    background-color: red;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    box-shadow: -2px 2px 3px 0px blue;
+    color: blue;
+}
+
+span{
+    color: #10cc10;
+}
+
+.squer{
+    background-color: red; 
+    width: 126px;
+    height: 130px;
+    margin: 2px 2px 2px 0;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.squer:hover{
+    background-color: blue ;
+}
+
+.button{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+}
